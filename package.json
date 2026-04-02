@@ -1,0 +1,16 @@
+{
+  "name": "debatemind-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Telegram debate partner using Claude",
+  "type": "module",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
