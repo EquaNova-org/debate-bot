@@ -8,5 +8,4 @@ console.log("🎯 DebateMind Bot is live...");
 
 bot.on("message", (msg) => handleMessage(bot, msg));
 bot.on("callback_query", (query) => handleCallbackQuery(bot, query));
-
 bot.on("polling_error", (err) => console.error("Polling error:", err.message));
